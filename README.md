@@ -9,4 +9,4 @@ materialy_pomocnicze - materiały udostępnione przez Prowadzącego dedykowane p
 etap_pierwszy - dokumenty sporządzone dla 1 kamienia milowego.
 
 Poniżej przedstawiono strukturę organizacji 1 kamienia milowego:
-![1 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/readme/materialy_pomocnicze/materia%C5%82y_graficzne/1_kamie%C5%84_milowy.jpg)
+![1 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/1_kamie%C5%84_milowy.jpg)
