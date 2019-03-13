@@ -6,7 +6,14 @@ Projekt prowadzony jest w metodyce SCRUM i ma pięć kamieni milowych opisanych 
 
 Organizacja repozytorium:
 materialy_pomocnicze - materiały udostępnione przez Prowadzącego dedykowane projektowi z przedmiotu Zaawansowane metody inżynierii oprogramowania. 
-etap_pierwszy - dokumenty sporządzone dla 1 kamienia milowego.
+
+etap_pierwszy - dokumenty sporządzone dla 1 kamienia milowego
+
+etap_drugi - dokumenty sporządzone dla 2 kamienia milowego
+
+Wersjonowanie: 1.0 - pierwsza wersja, i.0+1.0f - ostateczna wersja, gdzie i to numer ostatniej wersji
 
 Poniżej przedstawiono strukturę organizacji 1 kamienia milowego:
 ![1 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/1_kamie%C5%84_milowy.jpg)
+
+![2 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/2_kamie%C5%84_milowy.jpg)
