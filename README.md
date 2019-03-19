@@ -14,12 +14,18 @@ etap_drugi - dokumenty sporządzone dla 2 kamienia milowego
 Wersjonowanie: 1.0 - pierwsza wersja, i.0+1.0f - ostateczna wersja, gdzie i to numer ostatniej wersji
 
 Nazwy dla dokumentów z etapu drugiego:
-PSU_B1 - Wymagania FEAT
-PSU_B2 - Wymagania STRQ
-PSU_B3 - Wymagania UC
-PSU_B4 - Wymagania TERM
-PSU_B5 - Karty CRC
-PSU_B6 - Śledzenie STRQ->FEAT?
+
+PSU_B1 - Wymagania FEAT projekt UBEZPIECZALNIA
+
+PSU_B2 - Wymagania STRQ projekt UBEZPIECZALNIA
+
+PSU_B3 - Wymagania UC projekt UBEZPIECZALNIA
+
+PSU_B4 - Wymagania TERM projekt UBEZPIECZALNIA
+
+PSU_B5 - Karty CRC projekt UBEZPIECZALNIA
+
+PSU_B6 - Śledzenie STRQ->FEAT projekt UBEZPIECZALNIA ?
 
 Poniżej przedstawiono strukturę organizacji 1 kamienia milowego:
 ![1 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/1_kamie%C5%84_milowy.jpg)
