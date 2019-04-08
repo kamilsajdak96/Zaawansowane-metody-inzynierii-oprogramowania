@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Przygotowanie dokumentacji" version="4">
+  <OBJECT>
+    <ID name="Przygotowanie dokumentacji" mc="Standard.ActivityDiagram" uid="61e6ac8a-ab58-4dd4-aba7-1e6dc8621600"/>
+    <PID name="Przygotowanie dokumentacji" mc="Standard.Activity" uid="4625cdf0-c62a-41d3-b274-37f4145441de"/>
+    <ATTRIBUTES>
+      <ATT name="IsVertical">false</ATT>
+      <ATT name="UiDataVersion">1155</ATT>
+      <ATT name="UiData"><![CDATA[eJztXd1yozgWfhUqtbdyIyH+1j09le6kM12d7qTSs7u1V10ChEOCIYtxO87lVO0T7SPsznutsOO0QxwsMMiAdRWHBCSh7xyd833S8dtf78eh8oMmkyCOfjmCA/VI+fXd2wvnhrqpEnjs0pGSzu/oL0dxMhqMY4+GQTzwAjJKyHhAvSCNkwFx0+BHkM4HNKRjGqWTpyurfzwbHz9eOVleOVLG5CZOvj81rR69e3uZxHc0SedKRMasxZDM42l6QlLC/vZ3Ek7pY1eiaRgevXn39s3qhhe3fkvnIT16NhBUNJBJ9v+TgRsndLC8l6N/H8jEJR71Vo2d3qdX1Ods5St7xOOdCr1PT5xPrI+Lj9mHL8s7FW1wnxvom+WQigaf0JCk1GN9yb23L9kl5Ud2JXtFJPJI4g1yM6MYkBrEtQggjm4B7HmYfSImYJc91zIQNFS1+O2HZJJ+juJZdE4cGuY68S1Ngmh09O4yeZiP4jSekSigihffTjPoEPcmePtm8f+FQ4xD+in6EI/v4kmQsgl6pRGOR324DkIvodkTzoNJ+gwzWiXwBxHrEgkZ6D8tP+0E9ivWGRKNMpw8zhxS0RCrQ2wNkVXaDHDjZpDZwNLgmkbu4+v9ykahODr2bcfCwICeDrDtI2Dp1ALIQchH2LZ0XasBtaztJG0PQPV6AHqZBGOSzLMXWTNW1WFVoBq8QGWPup/vjFYs0bodrV9IEGX93/TIpxe2NodmITxXcHTj8TiOBmE2kEHWIQbMbHlcjmwXPH6KUjqiydNcQKM0DC0Jw9bB8BsbbxgG6UYc5p45uY5n3wP3xbPex6wxEj29H5+EE1o81sWjbul8FideDU9jsc7t90lKExrX1Ldwwxzkn5Um0/yjfmJsub5sMWq7ckbAjHyZCLDZqHeZgZo5RKo6hKY1NLZEpxuMHKo9ioou7si/pnT5mhWHOJZm2hDYmsEsXFUpsCxVBwbWLZ+6kBCV1GDhVw/UfYgfIjJziTK7S1hU7z0QJYj8OBmzmJ4qsTKbu5SF+u0JnmD13HYNyc3GTlUBzZ3t1rNswXwXJaybibLKwLta9rq6ErEbrimb7GSNvcm69dviongCB4pLXaH00vXBeQmiGkO1DSFMWyI1zq7tGqitW0U1CiC3iL2PvfkeLFpwji/NukazdhhkCnmAl9lErqUNEdTgcVq35fE8hlGBfFj81+OfmG2cUJ9Mw3RBxp8ur9bPSeQzfg6zEcxJyOCuRrP5NCajJbMlyYuGyYtX3E2dPqadXIgxxBkXYqlVUkfUWy5ENZDjQGIAH0EIMGGfbN/XATRNEzmW6ZmOXgfbOWd2MVZSZmkPc+WGejRSJnf//c9NNH+SOZWZsvQyAVUuTz62hxNBXeBEKgJbMCeCBC+bBwHvmrgR1DNuBAmU9aXXrh/WkiNpkiNBHeZIkGCORJp3A+bddq4E9ZYrQYK5Ehn0NWA+kjPpEWeCqnMm2RU/iBY7F1dR98fs9wY22Opq1Y2LWp8IlGevebFnzMQMdDo0gGq6JsDYpIBQFwEHmhb1oasa2K7B46waVhYtK5w5n6h94buditiI4TbuwdUEUyZa86tnTwFddmeuVkyAdGJrrsZNekh07hedcsPuPjfsarXQHw3s2IXVd+xq3LRIB4KsZxkdQZrv6S4BhoYIwJpnA4ciF+iqYWq2Y1m6ugVa5dXvOJ0FNCGKRyKqPIz+/COePLRrr65WzFC0Q5eqCGXBFIWWX2kloOuOuMoAe7d0uHVKFBaX/Wr5hEYCuQqQpfZUe1y2bg+1bKjYj/aERaf/0qAPQW3CFbiHbqhNWDQjIUM5qS91ip94xdHU6V3aynZoKq6aIuLesh3Mhbi2Z2sAmZ4GMHPrgFDkA9OFlqNpjuPpTt0exYs9ckOVIMocCvnzj//9232IgtugtZtycX/JDyy6vobgFfMw8F0TF4J7xoXo4rgQLDh1OgxcS2qkSWpE7zA1ogumRqR9H+K+XL23TIkumCmRcZ/cmCuJkwoNnQfR7WRTsK5X41nY/KcMXn4Yz5h3+rD87SP7rbRDWu9LIT+y1jbzJyEbEGv5kqTXPE1+i6eJS48j9zpOco3yHppYNUoWD5mwxq/I/FsYeMQJV0/m6IkX+D6DaOTS3GSfBKylBQhW022rwyoO74RO0o0jLUzS9zpShIcVduVlk/+Iokf8bzODK4Y7mnwOory/OY2m479ypXef6fwvDO8RXRju8oGfvKeRXFz9/tvF2cXX4/Mt/mUByCtym3852+PYlCQjmvLdyvEWNy3rhRl8x4jKNeekUB26tm35ALsGAhiaBrBNTQem4bnYQT5R3TrO2aw1ybGiLn3T8xkwCjmH57a6+GtmpHRlbhzzsQTRWULurgN3fT5eX2MKHU6u+8U5YXPd1yp0n96nS3eULZBfyN3zkRRmiPuL3Sulu0ZhIlJ/uK7n9zQfoHXzBuFjEkTLgFMG4U1RVUZhurohAvrpGpgdf0yWnBUJf67/57FLUr5wyH+8PR8MxVNnXYQZbIHodEuOsEW8+bHl9hcnX/OOt6aZqC7vZleoN6ILXEzWNIJTdvEfNBhdp3vwrOKkXelU+Z3qbAEH3tNURtlU8Jl7+OkUTiPvLg7K+IZtRr3lDW8z6i230xfpUFWrLs4wK1v12ZShcg9GLS4NkkbNb9SjDA3c311SIpHqlE0DUUZt8uh7LO5Lg9v17yZacNXZm8s4wlEST+8WX1T0dDkDxXGSVGAMd7ZrU7Dq10/jrtGiM7RkMPlOMkBwmzavrLbPaN7cbzgvJpo3i/Oq0i4ig/HkLLuwB+dQmJlI57A/57BASJW9aXznq82y6tMBuhPwooh4jQ7lzYJ7LRJLMxWTUyp9VVdYn/FqG3Ib0T7NsuJcHdqnWbxTc6+KoDms8CV6r0mfVtksQNxArQ0lfaT2+ap/aVz7tArTnQ5rnybUMTF1ClTLsAHGOgSWidjyr5quhz1IrFr2Mu2ufVq8klvd4mF+ba0kfVolspJ6pU+zZunT4lVLuiB9WoLDequCEN0345bSZ3ukT6sL2c1BSJ9W9WOAbRRJLO6jf9KntlUkscrmgVIkyX+bdnGC2UGRxObOg2TA1GKRxC6RTB0qqylm3bd3+7Ki1m15ssV9WVE/fUMbtjzZxfvwurvyC1v4i/OqTkmfdmFmIpf83kqfdlnx6QCDhH5Jn3a1Gi2NSJ9QLavO1aF9QrXEGSXRmqAxrPIFbq+pn1AtmwQIPeMKKwi9Uv5sSP6EKvcZsY7pny6xCVvqMTA0HwPsuwRY0PCA6tvUt3TTN/V2nP2EaoljSnuXEF8qoFAtkVTU2n9Y9+lPqPLKJl3QQKEqOMDPnMnBm7hUQdujgkK1C5nOQcigUN2tTGTbdFAIxZWJlH61hF8tpYRCWDYr7AohKkwKhbA42+ygFgqh4MIZPTXwvauhEHahAsRByKEQ9qwEBITiakD01D+0QRGFUFaB2NWyecpAdEQThZC7CIRc+vulikK0U+2IwwgW+iWLQlStmH0zuigqK9vVoouismUVBOqi5lCr4B1f1UVR2WxAoC4KpS7aKl0UcR8g65guahDX9aHuAJs5HIANwwbEU3WAVMOHyKEW8fMlKpqP7TfqoqjEGaa964obdFFUIrOotf+47qOhENUc4reA40OiA31U4bxx++18/xyfJsP2tnB8WvXvhmqlxqdxV46T7qG9Gp+2U+G4FjN84jQ+rUcV36AmuDZET027ixSf1oWyCH2m+J5NRkOVEfamCGriaiP01Ke0QhHU+loeQVi4gHlTsk5so8aCSyNI2y5h23IbtYBt1LgLVSX6u41avC6KqxWvaEYXxWVlu1p0UVy2VIJAsdAcahVqyL6qi+KyWZHAoaIhkrpoi3RRzH2mrGO6qK1SD3uOCXRfpwAj1weOAyHwDFNDtqYjqPvt0EVxiUNNe9cVN+iiuER+tfcvOy3WRXWeOnBdojB0ceWwYRU49c3AG6Iw9J0CdklhsDfIEwF3RfHQuWu31cRg9NO0u6h46DtVfJOKR62Kh85TPa5D+yN0cclAT11KG/ZH6DsVSWhxsCBuf4TOU9ygW/sjDe76BjJmaPX+SGOnEgeHEQEIWv8N3rSsE7qoIbpKQj89hNRFO6uLGl0oLyF10d100a3S0fvRSUJmzOrOyZzmtTWDL//2lk+YMKfPnpH5+fVHivHt5e4q6VhX6erJcuSKAalBXIsA4ugWwJ6H2SdiAnbZcy0DsfhzC3KCvH9Zub6Ts8H58T9Pr76/P/7w+ezq4m9fT2omWArkjrVpmzw96hkg+MRWCYgGAPH7xWUVJDybPr5DfU/TlzKXz2bvd/bjcQZ3mrwr1hESjdYcPDKGSB0iTR9Co0IMJ27LagU59wn1nD48r+/xAkQ3VdMilAJVczyAKdSAYxkY2BYk0LEQ9SDlAM6m0GLVxGXyMB/FaTwjUUAVL76dZkAh7k1QmMgVOaFX//R/nmMMEw==]]></ATT>
+      <ATT name="Name"><![CDATA[Przygotowanie dokumentacji]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="Start" mc="Standard.InitialNode" uid="b54f9b84-61d5-49f2-85e8-2b22f2498553"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Rzeczoznawca wprowadza informacje o wycenie" mc="Standard.OpaqueAction" uid="bab83791-9365-400e-8805-6458fec1aa0a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="System tworzy jeden spójny dokument w formacie PDF" mc="Standard.OpaqueAction" uid="062bb1a6-f211-4aa6-9ff5-17772b87d7b5"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="74abe516-07c7-447e-aec2-b178ef1c0649"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Rzeczoznawca otwiera dane zgłoszenie" mc="Standard.OpaqueAction" uid="a23fd5ca-632a-43d9-be2c-506739b8850e"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="e51c998f-4c62-4176-9735-76dc4b2fa0c5"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="7154a75e-0869-4451-8726-907cd4d1a85b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="ca9a9074-63f4-4fca-816d-0f9ef857f755"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Rzeczoznawca dodaje inne załączniki w formacie PDF" mc="Standard.OpaqueAction" uid="3d9c9d93-27d3-4efa-ae2f-7c18b33bbd5b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="6accf15b-9122-4669-ad05-206f12be8af9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="90ed4db7-5f5e-42cf-bb11-d6732935215f"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="9e12eedc-fc89-42f5-8b26-0983851dabe4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

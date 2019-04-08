@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagramy aktywności" version="4">
+  <OBJECT>
+    <ID name="diagramy aktywności" mc="Standard.Package" uid="90d8ccd3-de10-4a42-9932-313bdbe4ddf3"/>
+    <PID name="Diagramy aktywności" mc="Standard.Project" uid="afb9b365-559b-441b-96e3-57aedd51f472"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagramy aktywności]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Pozostawienie danych kontaktowych" mc="Standard.Activity" uid="d2216ddd-fc0b-402b-aec7-cd2fdaca7cd1"/>
+        <COMPID name="Wybranie rozmowy z konsultantem telefonicznym" mc="Standard.Activity" uid="f4507762-9f00-4101-9a14-4aff0ca5117f"/>
+        <COMPID name="Przegląd zakupionych usług" mc="Standard.Activity" uid="f5a2f7bd-86e0-4f45-b804-978d55773652"/>
+        <COMPID name="Zamawianie auta zastępczego" mc="Standard.Activity" uid="4c7811dc-6d4f-4643-a436-db452c5af943"/>
+        <COMPID name="Rejestracja w systemie" mc="Standard.Activity" uid="8bc2ad35-19b4-4d58-8884-41c328dd217a"/>
+        <COMPID name="Przeglądanie ofert firmy" mc="Standard.Activity" uid="55fb410a-3279-4c36-80f4-382ee82141fa"/>
+        <COMPID name="Zarządzanie danymi osobistymi i umowami" mc="Standard.Activity" uid="9631978b-2533-4aba-9be7-3954a12f01c0"/>
+        <COMPID name=" Logowanie do systemu" mc="Standard.Activity" uid="ed876f29-b31d-42f2-84a0-42796bd8c957"/>
+        <COMPID name="Dodawanie zdarzeń i sprawdzanie ich statusów" mc="Standard.Activity" uid="47fcf42a-014b-4214-9846-f46550ea8381"/>
+        <COMPID name="Tworzenie umów zakupowych" mc="Standard.Activity" uid="841976b1-0917-40a3-851c-bb0b9b286451"/>
+        <COMPID name="Sprawdzanie zgłoszeń dotyczących aut" mc="Standard.Activity" uid="1b5ebddf-1d73-4454-9b18-cadf866638a6"/>
+        <COMPID name="Przeprowadzenie wycen " mc="Standard.Activity" uid="e5a25c18-a2f1-4696-969e-0d3b9d81cb45"/>
+        <COMPID name="Zapisywanie badań lekarskich klientów" mc="Standard.Activity" uid="f4370b4b-9f31-475b-82f4-21c87ac9ae16"/>
+        <COMPID name="Sprawdzanie zgłoszeń dotyczących życia" mc="Standard.Activity" uid="43bbf984-46a4-4d2e-87a5-47bc3b267ef6"/>
+        <COMPID name="Przyznawanie odszkodowań" mc="Standard.Activity" uid="da982970-5a93-4025-8a58-764845015647"/>
+        <COMPID name="Umawianie spotkań z rzeczoznawcą" mc="Standard.Activity" uid="678d98c3-0c93-407f-993a-2ff41a2d5a11"/>
+        <COMPID name="Sprawdzenie zgłoszeń dotyczących domu" mc="Standard.Activity" uid="fad6dbce-368c-45e4-82ae-eb5b0e577f3e"/>
+        <COMPID name="Udzielanie informacji przez telefon" mc="Standard.Activity" uid="2c0f9449-e134-42f9-9f84-0ac270e92345"/>
+        <COMPID name="Zarządzanie użytkownikami" mc="Standard.Activity" uid="57e6db22-4e71-482c-8127-b62d991b9f0d"/>
+        <COMPID name="Przygotowanie dokumentacji" mc="Standard.Activity" uid="4625cdf0-c62a-41d3-b274-37f4145441de"/>
+        <COMPID name="Zakładanie konta klientom" mc="Standard.Activity" uid="71b6abc0-c940-4bfa-ad82-8ece32315949"/>
+        <COMPID name="Wyszukiwanie klientów i informacji o nich" mc="Standard.Activity" uid="704b184f-29f1-4ca0-ad64-8b1ec055cf4b"/>
+        <COMPID name="Dokonywanie płatności" mc="Standard.Activity" uid="36f9c3a1-956c-4451-a480-fe7923291bc4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

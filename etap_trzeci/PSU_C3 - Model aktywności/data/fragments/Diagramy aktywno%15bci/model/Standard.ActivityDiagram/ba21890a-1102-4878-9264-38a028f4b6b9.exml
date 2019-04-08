@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Umawianie spotkań z rzeczoznawcą" version="4">
+  <OBJECT>
+    <ID name="Umawianie spotkań z rzeczoznawcą" mc="Standard.ActivityDiagram" uid="ba21890a-1102-4878-9264-38a028f4b6b9"/>
+    <PID name="Umawianie spotkań z rzeczoznawcą" mc="Standard.Activity" uid="678d98c3-0c93-407f-993a-2ff41a2d5a11"/>
+    <ATTRIBUTES>
+      <ATT name="IsVertical">false</ATT>
+      <ATT name="UiDataVersion">800</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Umawianie spotkań z rzeczoznawcą]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="Start" mc="Standard.InitialNode" uid="36a96aee-88e6-4e1e-9f61-4f93b007c732"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Specjalista wybiera opcje umówienia spotkania z rzeczoznawcą" mc="Standard.OpaqueAction" uid="979cd5f0-b4b7-4094-af52-887b17781f66"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="System wyświetla dostępność rzeczoznawców" mc="Standard.OpaqueAction" uid="199c0cd9-97a6-4e4e-9d86-f25ef49f765a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Specjalista wybiera termin wybrany przez klienta" mc="Standard.OpaqueAction" uid="ee043167-9612-4423-8d38-0579941816aa"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="001bc85b-c585-42c8-bf07-bc6512dea02c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="839a9a51-369b-40b6-8e53-e41dad4c11ab"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="System zapisuje termin spotkania w bazie danych" mc="Standard.OpaqueAction" uid="ecd58c08-52b6-430d-906e-e1ff51443916"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="500a35f6-6d25-471c-b2d2-60f3a43d2b88"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="4c8e1fc1-3147-4797-8606-879169f920a1"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="caf3ac79-e4bf-4878-bca2-76e17bccd6fb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="73dc57a4-4821-42dc-838b-6a080a9b263e"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="692f1d44-0ce3-4b14-a3de-6145930747fa"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
