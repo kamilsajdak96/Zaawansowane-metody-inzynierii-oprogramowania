@@ -60,6 +60,15 @@ PSU_C9 - Diagramy komunikacji
 
 PSU_C10 - Walidacji poprawności modeli (UWAGA: Wnioski)
 
+Nazwy dla dokumentów z etapu czwartego:
+
+PSU_D1 - Modele topologii fizycznej, logicznej i wdrożenia
+
+PSU_D2 - Szkielet kodu
+
+PSU_D3 - Projekt bazy danych
+
+PSU_D4 - Dokumentacja projektu
 
 
 ### Organizacja Weekly Scrum Meeting:
@@ -76,4 +85,7 @@ Raport: plik excel przedstawiający co udało się zrobić, co jest planowane or
 ![2 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/2_kamie%C5%84_milowy.jpg)
 
 ![3 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/ZMIO3.jpg)
+
+![4 kamień milowy](https://github.com/kamilsajdak96/Zaawansowane-metody-inzynierii-oprogramowania/blob/master/materialy_pomocnicze/materia%C5%82y_graficzne/ZMIO4.jpg)
+
 
