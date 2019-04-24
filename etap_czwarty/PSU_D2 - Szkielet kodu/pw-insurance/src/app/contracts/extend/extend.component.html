@@ -1,0 +1,96 @@
+<div class="container-fluid font main-card">
+  <div class="card">
+    <div class="card-body">
+      <div >
+        <p class="subpage-info">>Przedłużenie umowy </p>
+        <hr>
+        <div class="button-row float-right manage-btn">
+          <button mat-raised-button class="add-button" (click)="reserveItem()">Przedłuż</button>
+        </div>
+        <hr style="margin-top: 70px">
+        <div >
+
+          <div class="item-add-box">
+            <div class="item-info">
+              <div class="row">
+                <div class="input-label">
+                  <h5>Ogólne informacje o umowie</h5>
+                  <p>Wybrana umowa</p>
+                </div>
+                <div class="card input-card">
+                  <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Typ ubezpieczenia
+                      <span class="property-value">Samochodowe</span>
+                    </li>
+                    <li class="list-group-item">Długość
+                      <span class="property-value">12 miesiący</span>
+                    </li>
+                    <li class="list-group-item">Kwota
+                      <span class="property-value">25000zł</span>
+                    </li>
+                    <li class="list-group-item">Rata
+                      <span class="property-value">989zł</span>
+                    </li>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="input-label">
+                  <h5>Szczegółowe informacje</h5>
+                  <p>Data rozpoczęcia oraz zakończenia umowy.</p>
+                </div>
+                <div class="card input-card">
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Od
+                        <span class="property-value">31.01.2020</span>
+                      </li>
+                      <li class="list-group-item">Do
+                        <span class="property-value">31.01.2021</span>
+                      </li>
+                      <li class="list-group-item">Dodatkowe informacje
+                        <span class="property-value">Brak</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="input-label">
+                  <h5>Placówka oraz doradca</h5>
+                  <p>Informacje o wybranej placówce oraz przydzielonym agencie.</p>
+                </div>
+                <div class="card input-card">
+                  <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Placówka
+                        <span class="property-value">plac Politechniki 1, 00-661 Warszawa </span>
+                      </li>
+                      <li class="list-group-item">Agent
+                        <span class="property-value">Krzysztof Kowalski</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="button-row float-right manage-btn">
+                <mat-spinner class="loadingSpinner" [diameter]="50" [strokeWidth]="5"
+                             *ngIf="reservingStarted"></mat-spinner>
+                <button mat-raised-button *ngIf="!reservingStarted" class="add-button" (click)="reserveItem()">Przełuż
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>

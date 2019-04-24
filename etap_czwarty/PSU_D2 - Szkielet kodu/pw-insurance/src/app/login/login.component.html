@@ -3,14 +3,14 @@
     <form #userLogin (ngSubmit) = "login()">
 
       <h2 class="headline">Logowanie</h2>
-      <p *ngIf="loginFinished">{{callbackMessage}}</p>
+      <p *ngIf="loginFinished" style="color: darkred;">{{callbackMessage}}</p>
       <p class="input-headline">Login</p>
       <div class="md-form">
         <i class="fa fa-envelope prefix"></i>
         <input mdbInputDirective
-               data-error="wrong email"
+               data-error="Zły email"
                [formControl]="emailFormEx"
-               data-success="valid email"
+               data-success="OK"
                minLength="8"
                maxLength="25"
                type="email"
@@ -25,9 +25,9 @@
       <div class="md-form">
         <i class="fa fa-lock prefix"></i>
         <input mdbInputDirective
-               data-error="wrong password"
+               data-error="Złe hasło"
                [formControl]="passwordFormEx"
-               data-success="valid password"
+               data-success="OK"
                minLength="10"
                maxLength="25"
                type="password"

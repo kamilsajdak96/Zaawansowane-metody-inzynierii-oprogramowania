@@ -1,7 +1,5 @@
-///<reference path="../../node_modules/@angular/forms/src/form_providers.d.ts"/>
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
@@ -12,7 +10,6 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {
-  DateAdapter,
   MatAutocompleteModule,
   MatBadgeModule,
   MatBottomSheetModule,
@@ -47,13 +44,17 @@ import {
 import {CdkTableModule} from '@angular/cdk/table';
 import {CdkTreeModule} from '@angular/cdk/tree';
 import {MDBBootstrapModule} from 'angular-bootstrap-md';
+import { ContractsComponent } from './contracts/contracts.component';
+import { ExtendComponent } from './contracts/extend/extend.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContractsComponent,
+    ExtendComponent
   ],
   imports: [
     BrowserModule,

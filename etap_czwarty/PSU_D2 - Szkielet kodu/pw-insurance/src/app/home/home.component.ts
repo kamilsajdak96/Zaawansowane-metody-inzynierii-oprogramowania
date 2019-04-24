@@ -1,6 +1,4 @@
-import {Component, OnDestroy, OnInit} from '@angular/core';
-
-import {Router, RouterModule} from '@angular/router';
+import {Component, OnInit} from '@angular/core';
 
 export interface InsuranceElement {
   name: string;
@@ -35,20 +33,21 @@ const PAYMENTS: PaymentElement[] = [
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit{
+export class HomeComponent implements OnInit {
+
   dateToShow;
   displayedColumnsInsurance: string[] = ['position', 'name', 'amount', 'other'];
   displayedColumnsPayment: string[] = ['number', 'insurance', 'amount', 'deadline'];
   dataSourceInsurance = INSURANCES;
   dataSourcePayment = PAYMENTS;
 
-  constructor(private router: Router) {
+  constructor() {
   }
 
   ngOnInit() {
     let date = new Date();
-    this.dateToShow = "  "+date.getDate()+" / "+(date.getMonth()+1)+" / "+date.getFullYear();
-    }
+    this.dateToShow = '  ' + date.getDate() + ' / ' + (date.getMonth() + 1) + ' / ' + date.getFullYear();
+  }
 
 
 }

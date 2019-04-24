@@ -1,40 +1,27 @@
 <ul class="font">
   <li class="site-name" routerLink="/">PW Insurance</li>
-  <div >
+  <div *ngIf="logged">
     <div >
-      <li ><a routerLink="items">Moje usługi</a></li>
-      <div *ngIf="showItemSideBar()" >
-        <li  class="items"><a routerLink="item/new">>New</a></li>
-        <li class="items"><a routerLink="items">>All</a></li>
+      <li ><a routerLink="#">Moje usługi</a></li>
+    </div>
+    <div >
+      <li><a routerLink="contracts">Zarządzanie umowami</a></li>
+      <div *ngIf="showContractSideBar()" >
+        <li class="items"><a routerLink="#">>Przeglądaj oferty</a></li>
+        <li class="items"><a routerLink="#">>Nowa umowa</a></li>
+        <li class="items"><a routerLink="#">>Przedłuż umowę</a></li>
       </div>
     </div>
     <div >
-      <li><a routerLink="my/reservations">Zarządzanie umowami</a></li>
-      <div *ngIf="showReservationSideBar()" >
-        <li class="items"><a routerLink="reservation/new">>New</a></li>
-        <li class="items"><a routerLink="my/reservations">>My</a></li>
-        <li  class="items"><a routerLink="reservations/all">>My location</a></li>
-      </div>
+      <li><a routerLink="#">Płatności</a></li>
     </div>
     <div >
-      <li><a routerLink="my/checkout">Płatności</a></li>
-      <div *ngIf="showCheckOutSideBar()" >
-        <li class="items"><a routerLink="checkout/new">>Nowa</a></li>
-        <li class="items"><a routerLink="my/checkout">>My</a></li>
-        <li *appManager class="items"><a routerLink="checkout/all">>My location</a></li>
-      </div>
-    </div>
-    <div >
-      <li><a  routerLink="reports/my">Zdarzenia</a></li>
-      <div *ngIf="showReportsSideBar()" >
-        <li class="items"><a routerLink="report/new">>New</a></li>
-        <li class="items"><a routerLink="reports/my">>My</a></li>
-      </div>
+      <li><a  routerLink="#">Zdarzenia</a></li>
     </div>
 
 
   </div>
-  <div >
+  <div *ngIf="logged">
     <li style="float:right"><a class="active" (click)="logout()">Wyloguj</a></li>
     <li style="float:right"><a class="active" routerLink="profile/my">Szymon Jarząbek</a></li>
   </div>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, Validators} from '@angular/forms';
 import {Router} from '@angular/router';
+import {LoginService} from './login.service';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class LoginComponent implements OnInit {
 
   model: any = {};
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private loginService: LoginService) {
     this.emailFormEx = new FormControl('', Validators.email);
     this.passwordFormEx = new FormControl('', Validators.required);
   }
@@ -32,7 +33,14 @@ export class LoginComponent implements OnInit {
   login() {
     this.loginStarted = true;
     if(this.model.username==='test@pw.pl' && this.model.password==='test'){
+      this.loginService.logged.next(true);
       this.router.navigateByUrl('/');
+    }else{
+      this.loginStarted = false;
+      this.loginFinished = true;
+      this.model.username= '';
+      this.model.password= '';
+      this.callbackMessage = 'Błędne dane logowania!';
     }
   }
 

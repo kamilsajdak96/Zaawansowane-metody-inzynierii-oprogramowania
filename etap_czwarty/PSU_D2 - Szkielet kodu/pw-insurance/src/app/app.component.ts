@@ -6,19 +6,13 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
   styleUrls: ['./app.component.css'],
   encapsulation: ViewEncapsulation.None,
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
 
   constructor() {
   }
 
-  dataChecked = false;
-  personData:string ='';
-  authenticated= false;
-
-  ngOnInit(){
-
+  ngOnInit() {
   }
-
 
 
 }

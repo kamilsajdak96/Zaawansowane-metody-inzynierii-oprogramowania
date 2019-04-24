@@ -1,4 +1,4 @@
-.login-card{
+.login-card {
   min-width: 300px !important;
   min-height: 250px !important;
   height: 50%;
@@ -9,7 +9,7 @@
   margin-bottom: 30vh;
 }
 
-.input-body{
+.input-body {
   min-width: 250px !important;
   min-height: 150px !important;
   width: 80%;
@@ -24,19 +24,19 @@
   position: center;
 }
 
-.headline{
+.headline {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 15%;
   font-weight: bold !important;
 }
 
-.input-headline{
+.input-headline {
   margin-top: 7vh;
   margin-bottom: -1vh;
 }
 
-.small-text{
+.small-text {
   font-size: small;
 }
 
@@ -44,47 +44,21 @@
   color: #797e7d;
 }
 
-.forgot-pass{
+.forgot-pass {
   font-size: small;
   right: 0;
   position: absolute;
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
 
-.bg1{
-  background-color: blue;
-  color: white;
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.social-button{
-  margin-left: 9vw;
-}
-
-.fb{
-  width: 20%;
-  background-color: #3a4cff;
-}
-
-.twt{
-  width: 20%;
-  background-color: #32b7ff;
-}
-
-.gp{
-  width: 20%;
-  background-color: #a40b0c;
-}
-
-.bottom-space-md{
+.bottom-space-md {
   margin-bottom: 10%;
 }
 
-.top-space-lg{
+.top-space-lg {
   margin-top: 15%;
 }
 

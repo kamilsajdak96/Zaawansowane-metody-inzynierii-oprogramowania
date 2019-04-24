@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-
 import {Router} from '@angular/router';
+import {LoginService} from '../login/login.service';
 
 
 @Component({
@@ -10,74 +10,31 @@ import {Router} from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
 
-  personData: string;
+  logged = false;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private loginService: LoginService) {
   }
 
   ngOnInit() {
 
+    this.loginService.logged.subscribe((value) => {
+      this.logged = value;
+    });
+
   }
 
   logout() {
+
     this.router.navigateByUrl('/login');
+    this.loginService.logged.next(false);
 
   }
 
-  navigateLogin() {
-    this.router.navigate(['login']);
-  }
+  showContractSideBar() {
 
-  navigateItems() {
-    this.router.navigate(['items']);
-  }
-
-  showItemSideBar() {
-
-    if (this.router.url.includes('item')) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  showReservationSideBar() {
-
-    if (this.router.url.includes('reservation')) {
-      return true;
-    } else {
-      return false;
-    }
-
+    return this.router.url.includes('contract');
 
   }
 
-  showCheckOutSideBar() {
-
-    if (this.router.url.includes('checkout')) {
-      return true;
-    } else {
-      return false;
-    }
-
-  }
-
-  showReportsSideBar() {
-
-    if (this.router.url.includes('report')) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  showStocktakingSideBar() {
-
-    if (this.router.url.includes('stocktaking')) {
-      return true;
-    } else {
-      return false;
-    }
-  }
 
 }

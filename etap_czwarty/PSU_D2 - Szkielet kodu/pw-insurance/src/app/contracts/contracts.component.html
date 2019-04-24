@@ -1,0 +1,67 @@
+<div class="container-fluid font main-card">
+  <div class="card">
+    <div class="card-body">
+      <div>
+        <p class="subpage-info">>Moje umowy </p>
+        <mat-form-field>
+          <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filtruj">
+        </mat-form-field>
+
+        <div class="mat-elevation-z8">
+
+          <table mat-table [dataSource]="dataSource" style="width: 100%;" matSort multiTemplateDataRows>
+
+            <ng-container matColumnDef="{{column}}" *ngFor="let column of displayedColumns">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> {{displayColumnName(column)}}</th>
+              <td mat-cell *matCellDef="let element"> {{element[column]}}</td>
+            </ng-container>
+
+
+            <ng-container matColumnDef="expandedDetail">
+              <td mat-cell *matCellDef="let element" [attr.colspan]="displayedColumns.length">
+                <div class="example-element-detail"
+                     [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+                  <div class="element-description">
+                    <hr>
+                    <p class="description-headers">Ilość wpłat:
+                    <span class="header-value">2</span>
+                    </p>
+                    <hr>
+                    <p class="description-headers">Pozostało:
+                      <span class="header-value">2</span>
+                    </p>
+                    <hr>
+                    <p class="description-headers">Współposiadacze:
+                      <span class="header-value">Brak</span>
+                    </p>
+                    <hr>
+                    <p class="description-headers">Zgłoszonych zdarzeń na tą umowę:
+                      <span class="header-value">0</span>
+                    </p>
+                        <button mat-raised-button class="more-button" routerLink="/contract/extend">Przełuż umowę</button>
+                        <button mat-raised-button class="more-button" >Zerwij umowę</button>
+                        <button mat-raised-button class="more-button" >Zapłać ratę</button>
+                  </div>
+                </div>
+              </td>
+            </ng-container>
+
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let element; columns: displayedColumns;"
+                class="example-element-row"
+                [class.example-expanded-row]="expandedElement === element"
+                (click)="expandedElement===undefined ? expandedElement = element: expandedElement = undefined">
+            </tr>
+            <tr mat-row *matRowDef="let row; columns: ['expandedDetail'];" class="example-detail-row"></tr>
+          </table>
+
+
+          <mat-paginator #paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
