@@ -1,0 +1,30 @@
+<ul class="font">
+  <li class="site-name" routerLink="/">PW Insurance</li>
+  <div *ngIf="logged">
+    <div >
+      <li ><a routerLink="#">Moje usługi</a></li>
+    </div>
+    <div >
+      <li><a routerLink="contracts">Zarządzanie umowami</a></li>
+      <div *ngIf="showContractSideBar()" >
+        <li class="items"><a routerLink="#">>Przeglądaj oferty</a></li>
+        <li class="items"><a routerLink="#">>Nowa umowa</a></li>
+        <li class="items"><a routerLink="#">>Przedłuż umowę</a></li>
+      </div>
+    </div>
+    <div >
+      <li><a routerLink="#">Płatności</a></li>
+    </div>
+    <div >
+      <li><a  routerLink="#">Zdarzenia</a></li>
+    </div>
+
+
+  </div>
+  <div *ngIf="logged">
+    <li style="float:right"><a class="active" (click)="logout()">Wyloguj</a></li>
+    <li style="float:right"><a class="active" routerLink="profile/my">Szymon Jarząbek</a></li>
+  </div>
+
+
+</ul>

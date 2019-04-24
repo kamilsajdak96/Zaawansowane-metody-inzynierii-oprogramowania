@@ -1,0 +1,58 @@
+<div class="card login-card">
+  <div class="card-body input-body">
+    <form #userLogin (ngSubmit) = "login()">
+
+      <h2 class="headline">Logowanie</h2>
+      <p *ngIf="loginFinished" style="color: darkred;">{{callbackMessage}}</p>
+      <p class="input-headline">Login</p>
+      <div class="md-form">
+        <i class="fa fa-envelope prefix"></i>
+        <input mdbInputDirective
+               data-error="Zły email"
+               [formControl]="emailFormEx"
+               data-success="OK"
+               minLength="8"
+               maxLength="25"
+               type="email"
+               class="form-control"
+               id="login"
+               name="name"
+               mdbInputDirective
+               [(ngModel)]="model.username">
+        <label for="login" class="small-text">Wpisz login</label>
+      </div>
+      <p class="input-headline">Hasło</p>
+      <div class="md-form">
+        <i class="fa fa-lock prefix"></i>
+        <input mdbInputDirective
+               data-error="Złe hasło"
+               [formControl]="passwordFormEx"
+               data-success="OK"
+               minLength="10"
+               maxLength="25"
+               type="password"
+               class="form-control"
+               id="pass"
+               name="password"
+               [(ngModel)]="model.password">
+        <label for="pass"
+               class="small-text">Wpisz hasło</label>
+        <a href="#" class="forgot-pass gray-text">Zapomniałeś/aś hasła?</a>
+      </div>
+      <mat-spinner class="loadingSpinner" [diameter]="50" [strokeWidth]="5"  *ngIf="loginStarted"></mat-spinner>
+      <button mdbBtn
+              *ngIf="!loginStarted"
+              class="login-button"
+              type="submit"
+              gradient="purple"
+              mdbWavesEffect
+              (click)="login()">Zaloguj</button>
+    </form>
+
+  </div>
+
+
+  <p class="center-text gray-text top-space-lg">Nie jesteś naszym klientem?</p>
+  <a routerLink="/register" class="center-text bottom-space-md">Zarejestruj</a>
+
+</div>

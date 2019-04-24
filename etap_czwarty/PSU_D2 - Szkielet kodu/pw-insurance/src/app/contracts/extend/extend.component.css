@@ -1,0 +1,38 @@
+.add-button {
+  background-color: #258eaf;
+  color: white;
+  text-align: center;
+  width: 110px;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+
+.item-add-box {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.06);
+  height: 1070px;
+}
+
+.item-info {
+  width: 80%;
+  margin: auto;
+}
+
+.input-label {
+  margin-top: 20px;
+  width: 35%;
+}
+
+.input-card {
+  margin-top: 20px;
+  margin-left: 5%;
+  width: 60%;
+}
+
+.property-value {
+  float: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
